@@ -16,8 +16,8 @@ jobs:
       - name: data copy
         uses: pal-paul/git-copy@v1
         with:
-          owner: pal-paul
-          repo: git-copy
-          token: ${{ secrets.TOKEN }}
+          owner: 'pal-paul'
+          repo: 'source-repo'
+          token: '${{ secrets.TOKEN }}'
           directory: './data'
           detination_directory : 'setting'
