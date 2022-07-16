@@ -20,4 +20,4 @@ jobs:
           repo: git-copy
           token: ${{ secrets.TOKEN }}
           directory: './data'
-          detination-directory : 'setting'
+          detination_directory : 'setting'
