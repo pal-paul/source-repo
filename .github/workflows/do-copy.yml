@@ -1,0 +1,23 @@
+name: Do Copy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  do-copy:
+    runs-on: ubuntu-latest
+    name: Copy settings
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: data copy
+        uses: pal-paul/git-copy@latest
+        with:
+          owner: pal-paul
+          repo: git-copy
+          token: ${{ secrets.TOKEN }}
+          directory: './data'
+          detination-directory : 'setting'
