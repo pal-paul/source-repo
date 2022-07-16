@@ -17,7 +17,7 @@ jobs:
         uses: pal-paul/git-copy@v1.2
         with:
           owner: 'pal-paul'
-          repo: 'source-repo'
+          repo: 'global-files'
           token: '${{ secrets.TOKEN }}'
           directory: './data'
           detination_directory : 'setting'
