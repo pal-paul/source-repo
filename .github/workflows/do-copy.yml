@@ -18,6 +18,6 @@ jobs:
         with:
           owner: 'pal-paul'
           repo: 'source-repo'
-          token: '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'
+          token: ${{ secrets.TOKEN }}
           directory: './data'
           detination_directory : 'setting'
