@@ -33,5 +33,12 @@
       "no": ["No", "لا"]
     }
   },
-  "syndications": null
+  "syndications": {
+    "enable": true,
+    "languages": ["en"],
+    "recommendation": {
+      "yes": ["Yes", "نعم"],
+      "no": ["No", "لا"]
+    }
+  }
 }
