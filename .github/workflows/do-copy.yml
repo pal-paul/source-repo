@@ -19,6 +19,8 @@ jobs:
           owner: 'pal-paul'
           repo: 'global-files'
           token: '${{ secrets.TOKEN }}'
+          branch: 'settings'
+          pull_message: "Update settings"
           directory: './data'
           detination_directory : 'setting'
           reviewers: "palashpaul-ingka"
