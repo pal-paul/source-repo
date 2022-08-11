@@ -8,7 +8,7 @@
         {
             "name": "yotpo",
             "type": "rr",
-            "secret_name": "yotpo-credentials-hrhr",
+            "secret_name": "yotpo-credentials-hrhr    sss",
             "content_import": true,
             "content_export": true,
             "email_analytics": "2w",
