@@ -26,4 +26,4 @@ jobs:
           pull_message: "Update settings"
           directory: "./data"
           destination_directory: "setting"
-          reviewers: "palashpaul-ingka"
+          reviewers: "PalashPaul-Ingka"
