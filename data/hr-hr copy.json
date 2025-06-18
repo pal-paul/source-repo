@@ -1,0 +1,48 @@
+{
+    "name": "hrhr",
+    "country_code": "hr",
+    "language_code": "hr",
+    "locale": "hr_HR",
+    "language": "Croatian",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-hrhr    sss",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": true
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": "verifiedBuyer"
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": {
+            "yes": [
+                "Da"
+            ],
+            "no": [
+                "Ne"
+            ]
+        }
+    },
+    "syndications": [
+        {
+            "country_code": "hr",
+            "language_codes": [
+                "hr"
+            ]
+        }
+    ]
+}
