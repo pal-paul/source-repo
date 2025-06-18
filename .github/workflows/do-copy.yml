@@ -23,7 +23,5 @@ jobs:
           repo: "global-files"
           token: "${{ secrets.TOKEN }}"
           branch: "settings"
-          pull_message: "Update settings"
           directory: "./data"
           destination_directory: "setting"
-          reviewers: "PalashPaul-Ingka"
