@@ -8,6 +8,9 @@ on:
 jobs:
   do-copy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     name: Copy settings
     steps:
       - name: Checkout
